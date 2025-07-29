@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M.D Sifat</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #1a1a1a, #333);
+      color: white;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .container {
+      padding: 30px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 15px 0;
+    }
+    p.bio {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .links a {
+      display: block;
+      color: #0ff;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 1.1rem;
+    }
+    .contact {
+      margin-top: 30px;
+      font-size: 1rem;
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/vjygMyz/IMG-20230613-191615.jpg" alt="M.D Sifat"/>
+    <h1>M.D Sifat</h1>
+    <p class="bio">Peace be upon you.<br>I am Sifat Bhai. I am an app and website developer. I have YouTube, WhatsApp, and Telegram channels. I constantly teach people these things and improve them. So stay with me, thank you.</p>
+
+    <div class="links">
+      <a href="https://www.youtube.com/@S.R-Tec" target="_blank">🎥 YouTube</a>
+      <a href="https://t.me/sifatvai69" target="_blank">📢 Telegram</a>
+      <a href="https://www.facebook.com/share/1FDoAYKEK6/" target="_blank">📘 Facebook</a>
+      <a href="https://chat.whatsapp.com/KvKxj2HRi2LFjBA0RHA5jZ" target="_blank">💬 WhatsApp</a>
+    </div>
+
+    <div class="contact">
+      <p>Contact form:</p>
+      <p><strong>M.D Sifat vai, any problem.</strong></p>
+    </div>
+  </div>
+</body>
+</html>
